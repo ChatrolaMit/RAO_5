@@ -64,8 +64,10 @@ int main()
         {15, 8000}};
     int l = 1;
     cin >> l;
+    int ans=l;
     while (l--)
     {
+        cout<<"Case #"<<ans-l<<": ";
         hlp(arr);
     }
 
